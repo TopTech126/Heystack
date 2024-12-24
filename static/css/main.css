@@ -1,10 +1,23 @@
 .part1 {
+	position: relative;
 	height: 100vh;
 	background: linear-gradient(179deg, #e4ecff 1.11%, rgba(234, 240, 255, 0) 103.22%);
 }
 
+.semicircle {
+	position: absolute;
+	height: 98%;
+}
+
+.semicircle > img {
+	height: 100%;
+	opacity: 0.9;
+}
+
 .navbar {
 	height: 80px;
+	max-width: 1280px;
+	margin: auto;
 	padding: 20px 0;
 }
 
@@ -42,6 +55,13 @@
 .nav-btn {
 	border: none;
 	color: #415082;
+	background-color: #ffffff00;
 	font-size: 14px;
 	font-weight: bold;
+}
+
+.part1-main {
+	z-index: 3;
+	max-width: 1280px;
+	margin: auto;
 }
