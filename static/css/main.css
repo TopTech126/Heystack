@@ -1,0 +1,47 @@
+.part1 {
+	height: 100vh;
+	background: linear-gradient(179deg, #e4ecff 1.11%, rgba(234, 240, 255, 0) 103.22%);
+}
+
+.navbar {
+	height: 80px;
+	padding: 20px 0;
+}
+
+.logo {
+	color: #415082;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.logo-img {
+	height: 28px;
+	width: 28px;
+}
+
+.nav-main {
+	color: #111827;
+	font-size: 16px;
+	padding: 0 40px;
+	gap: 20px;
+}
+
+.nav-link {
+	color: #111827;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.nav-btn-container {
+	height: 100%;
+	padding: 6px 32px;
+	border: #415082 2px solid;
+	border-radius: 6px;
+	background-color: #4150821A;
+}
+.nav-btn {
+	border: none;
+	color: #415082;
+	font-size: 14px;
+	font-weight: bold;
+}
