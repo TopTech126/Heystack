@@ -1,6 +1,10 @@
+.margintop-16 {
+	margin-top: 16px;
+	margin-bottom: 0;
+}
+
 .part1 {
 	position: relative;
-	height: 100vh;
 	background: linear-gradient(179deg, #e4ecff 1.11%, rgba(234, 240, 255, 0) 103.22%);
 }
 
@@ -61,7 +65,43 @@
 }
 
 .part1-main {
-	z-index: 3;
+	height: 100vh;
 	max-width: 1280px;
 	margin: auto;
+	color: #555555;
+}
+
+.title {
+	color: #1943CC;
+	margin: 8px 80px;
+	
+}
+
+.paddingx-40 {
+	padding: 0 40px;
+}
+
+.demo-btn {
+	height: 30px;
+	color: #1943CC;
+}
+
+.demo-btn > button {
+	color: #1943CC;
+	background-color: #4150821A;
+	height: 30px;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 4px 24px;
+	font-size: 14px;
+	border: #1943CC 1px solid;
+	border-radius: 2rem;
+	text-transform: uppercase;
+}
+
+.iframe {
+
+	max-width: 1400px;
+	height: 368;
+
 }
