@@ -1,9 +1,40 @@
-.paddingy-64 {
-	padding: 64px 0;
+.marginy-64 {
+	margin-top: 64px;
+	margin-bottom: 64px;
 }
 
+.paddingy-64 {
+	/* padding: 64px 0; */
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+
+.paddingx-32 {
+	padding-left: 32px;
+	padding-right: 32px;
+}
 .paddingx-40 {
 	padding: 0 40px;
+}
+
+.rounded-05 {
+	border-radius: 0.5rem;
+}
+
+.max-width-1280 {
+	max-width: 1280px;
+}
+
+.gap-8rem {
+	gap: 8rem;
+}
+
+.gap-4rem {
+	gap: 4rem;
+}
+
+.gap-1rem {
+	gap: 1rem;
 }
 
 .part1 {
@@ -193,4 +224,36 @@
 
 .slide-track {
   transition: all 0.3s ease;
+}
+
+.title-3 {
+	font-size: 36px;
+	padding: 0 12px;
+	text-align: center;
+	font-weight: bold;
+	background: linear-gradient(245deg, #1896bd 11.59%, #542de8 35.77%, #ec276e 59.95%, #d75a00 84.12%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.subtitle-3 {
+	font-weight: 600;
+	background: linear-gradient(267deg, #5200ff 4.01%, #ff2df7 114.97%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.container > div > div {
+	max-width: 576px;
+}
+
+.subline {
+	width: 90%;
+	border-top: #D1D5DB solid 0.1px;
+}
+
+.learn-btn {
+	
 }
