@@ -47,6 +47,10 @@
 	gap: 1rem;
 }
 
+.gap-40 {
+	gap: 40px;
+}
+
 .gap-12 {
 	gap: 12px;
 }
@@ -343,4 +347,9 @@
 .unique-img {
 	height: 50px;
 	width: 50px;
+}
+
+.partner-card {
+	height: 150px;
+	width: 100px;
 }

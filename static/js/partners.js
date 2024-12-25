@@ -1,5 +1,5 @@
-var swiper = new Swiper(".slide-content", {
-  slidesPerView: 3,
+var swiper = new Swiper(".partners-content", {
+  slidesPerView: 5,
   spaceBetween: 10,
   loop: true,
   centerSlide: 'true',
@@ -11,19 +11,28 @@ var swiper = new Swiper(".slide-content", {
     dynamicBullets: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".partners-button-next",
+    prevEl: ".partners-button-prev",
   },
 
   breakpoints: {
     0: {
       slidesPerView: 1,
     },
-    520: {
+    200: {
       slidesPerView: 2,
     },
-    950: {
+    400: {
       slidesPerView: 3,
+    },
+    600: {
+      slidesPerView: 4,
+    },
+    800: {
+      slidesPerView: 5,
+    },
+    1000: {
+      slidesPerView: 6,
     },
   },
 });
