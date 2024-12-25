@@ -1,3 +1,7 @@
+.margintop-112 {
+	margin-top: 112px;
+}
+
 .margintop-64 {
 	margin-top: 64px;
 }
@@ -5,6 +9,10 @@
 .marginy-64 {
 	margin-top: 64px;
 	margin-bottom: 64px;
+}
+
+.padding-80 {
+	padding: 80px;
 }
 
 .paddingy-64 {
@@ -27,6 +35,10 @@
 	padding-bottom: 32px;
 }
 
+.padding-24 {
+	padding: 24px;
+}
+
 .rounded-05 {
 	border-radius: 0.5rem;
 }
@@ -37,6 +49,10 @@
 
 .gap-8rem {
 	gap: 8rem;
+}
+
+.gap-5rem {
+	gap: 5rem;
 }
 
 .gap-4rem {
@@ -352,4 +368,19 @@
 .partner-card {
 	height: 150px;
 	width: 100px;
+}
+
+.footer-container {
+	background-color: #F5F5F5;
+	border-radius: 12px;
+	padding: 80px;
+}
+
+.linkedin {
+	height: 24px;
+	width: 24px;
+}
+
+.location {
+	background-color: #FFFFFF;
 }
