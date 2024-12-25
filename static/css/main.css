@@ -1,3 +1,7 @@
+.margintop-64 {
+	margin-top: 64px;
+}
+
 .marginy-64 {
 	margin-top: 64px;
 	margin-bottom: 64px;
@@ -53,6 +57,10 @@
 
 .font-24 {
 	font-size: 24px;
+}
+
+.font-20 {
+	font-size: 20px;
 }
 
 .font-14 {
@@ -255,7 +263,7 @@
 	background: linear-gradient(179deg, #fff 3.24%, #e4ecff 53.76%, rgba(234, 240, 255, 0) 103.22%);
 }
 
-.title-3 {
+.title-gradient {
 	font-size: 36px;
 	padding: 0 12px;
 	text-align: center;
@@ -283,11 +291,56 @@
 	border-top: #D1D5DB solid 0.1px;
 }
 
-/* ---------------------------------- */
-.part4 {}
-
 .testimonial-avatar {
 	width: 50px;
 	height: auto;
 	border-radius: 100%;
+}
+
+.unique-card:nth-child(1) {
+	border-bottom: 1px solid #dee2e6;
+	border-right: 1px solid #dee2e6;
+}
+
+.unique-card:nth-child(2) {
+	border-bottom: 1px solid #dee2e6;
+	border-right: 1px solid #dee2e6;
+}
+
+.unique-card:nth-child(3) {
+	border-bottom: 1px solid #dee2e6;
+}
+
+.unique-card:nth-child(4) {
+	border-right: 1px solid #dee2e6;
+}
+
+.unique-card:nth-child(5) {
+	border-right: 1px solid #dee2e6;
+}
+
+.unique-card {
+	transition: box-shadow 0.3s ease;
+	cursor: pointer;
+}
+
+.unique-card:hover {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 767.98px) {
+	.unique-card {
+		border-right: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.unique-card {
+		border-right: none;
+	}
+}
+
+.unique-img {
+	height: 50px;
+	width: 50px;
 }
