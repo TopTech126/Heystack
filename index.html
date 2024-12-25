@@ -1,239 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./static/css/main.css" />
-  </head>
-  <body>
-    <div class="part1 bg-gradient1">
-      <div class="semicircle position-absolute bottom-0 start-0">
-        <img src="./assets/part1/semicircle.webp" alt="" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./static/css/main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./static/css/testimonials.css">
+  <script defer src="./static/js/main.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="./static/js/testimonials.js"></script>
+</head>
+
+<body>
+  <div class="part1 bg-gradient1">
+    <div class="semicircle position-absolute bottom-0 start-0">
+      <img src="./assets/part1/semicircle.webp" alt="" />
+    </div>
+    <div class="navbar position-relative">
+      <div class="logo d-flex align-items-center gap-2">
+        <img class="logo-img" src="./assets/logo/logo.webp" alt="" />
+        <div>
+          <span class="">Heystack</span>
+        </div>
       </div>
-      <div class="navbar position-relative">
-        <div class="logo d-flex align-items-center gap-2">
-          <img class="logo-img" src="./assets/logo/logo.webp" alt="" />
-          <div>
-            <span class="">Heystack</span>
+      <div class="" id="navbarNav">
+        <ul class="navbar-nav d-flex flex-row nav-main">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Customers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prouducts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Retailers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-btn-container">
+        <button class="nav-btn">SEE LIVE IN ACTION</button>
+      </div>
+    </div>
+    <div class="part1-main position-relative d-flex align-items-center m-auto">
+      <div class="d-flex flex-column">
+        <div class="paddingx-40 mb-2">
+          <h1 class="title text-center">
+            Generative AI Powered Actionable Insights for Product Experience
+            Analytics
+          </h1>
+          <p class="text-center mt-3 mb-0 text-md-center">
+            Uncover actionable insights from millions of customer reviews
+            across hundreds of retailers to minimize returns, drive product
+            innovation, identify market gaps, and gain a competitive
+            advantage.
+          </p>
+          <div class="demo-btn text-center mt-4">
+            <button>LIVE DEMO</button>
           </div>
         </div>
-        <div class="" id="navbarNav">
-          <ul class="navbar-nav d-flex flex-row nav-main">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Customers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Prouducts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Technology</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Retailers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blogs</a>
-            </li>
-          </ul>
-        </div>
-        <div class="nav-btn-container">
-          <button class="nav-btn">SEE LIVE IN ACTION</button>
-        </div>
+        <iframe class="iframe" width="1400" height="368"
+          src="https://rive.app/community/7548-15148-looping-animation-02/embed" allowfullscreen
+          frameborder="0"></iframe>
       </div>
-      <div class="part1-main position-relative d-flex align-items-center m-auto">
-        <div class="d-flex flex-column">
-          <div class="paddingx-40 mb-2">
-            <h1 class="title text-center">
-              Generative AI Powered Actionable Insights for Product Experience
-              Analytics
-            </h1>
-            <p class="text-center mt-3 mb-0 text-md-center">
-              Uncover actionable insights from millions of customer reviews
-              across hundreds of retailers to minimize returns, drive product
-              innovation, identify market gaps, and gain a competitive
-              advantage.
-            </p>
-            <div class="demo-btn text-center mt-4">
-              <button>LIVE DEMO</button>
+    </div>
+  </div>
+  <div class="part2 paddingy-64">
+    <p class="text-center brands">Brands that <span class="text-primary">trust us</span></p>
+    <div class="brand-slider py-3">
+      <div class="slide-track">
+        <div class="slide"><img src="./assets/brands/brand (1).svg" alt="Brand 1"></div>
+        <div class="slide"><img src="./assets/brands/brand (2).svg" alt="Brand 2"></div>
+        <div class="slide"><img src="./assets/brands/brand (3).svg" alt="Brand 3"></div>
+        <div class="slide"><img src="./assets/brands/brand (4).svg" alt="Brand 4"></div>
+        <div class="slide"><img src="./assets/brands/brand (5).svg" alt="Brand 5"></div>
+        <div class="slide"><img src="./assets/brands/brand (6).svg" alt="Brand 6"></div>
+        <div class="slide"><img src="./assets/brands/brand (7).svg" alt="Brand 7"></div>
+        <div class="slide"><img src="./assets/brands/brand (8).svg" alt="Brand 8"></div>
+        <div class="slide"><img src="./assets/brands/brand (9).svg" alt="Brand 9"></div>
+        <div class="slide"><img src="./assets/brands/brand (10).svg" alt="Brand 10"></div>
+        <div class="slide"><img src="./assets/brands/brand (11).svg" alt="Brand 11"></div>
+        <div class="slide"><img src="./assets/brands/brand (12).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (13).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (14).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (15).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (16).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (17).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (18).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (19).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (20).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (21).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (22).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (23).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (24).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (25).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (26).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (27).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (28).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (29).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (30).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (31).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (32).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (33).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (34).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (35).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (36).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (37).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (38).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (39).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (40).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (41).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (42).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (43).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (44).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (45).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (46).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (47).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (48).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (49).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (50).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (51).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (52).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (53).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (54).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (55).svg" alt="Brand 12"></div>
+      </div>
+    </div>
+    <div class="brand-slider reverse">
+      <div class="slide-track">
+        <div class="slide"><img src="./assets/brands/brand (1).svg" alt="Brand 1"></div>
+        <div class="slide"><img src="./assets/brands/brand (2).svg" alt="Brand 2"></div>
+        <div class="slide"><img src="./assets/brands/brand (3).svg" alt="Brand 3"></div>
+        <div class="slide"><img src="./assets/brands/brand (4).svg" alt="Brand 4"></div>
+        <div class="slide"><img src="./assets/brands/brand (5).svg" alt="Brand 5"></div>
+        <div class="slide"><img src="./assets/brands/brand (6).svg" alt="Brand 6"></div>
+        <div class="slide"><img src="./assets/brands/brand (7).svg" alt="Brand 7"></div>
+        <div class="slide"><img src="./assets/brands/brand (8).svg" alt="Brand 8"></div>
+        <div class="slide"><img src="./assets/brands/brand (9).svg" alt="Brand 9"></div>
+        <div class="slide"><img src="./assets/brands/brand (10).svg" alt="Brand 10"></div>
+        <div class="slide"><img src="./assets/brands/brand (11).svg" alt="Brand 11"></div>
+        <div class="slide"><img src="./assets/brands/brand (12).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (13).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (14).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (15).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (16).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (17).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (18).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (19).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (20).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (21).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (22).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (23).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (24).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (25).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (26).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (27).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (28).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (29).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (30).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (31).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (32).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (33).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (34).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (35).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (36).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (37).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (38).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (39).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (40).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (41).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (42).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (43).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (44).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (45).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (46).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (47).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (48).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (49).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (50).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (51).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (52).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (53).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (54).svg" alt="Brand 12"></div>
+        <div class="slide"><img src="./assets/brands/brand (55).svg" alt="Brand 12"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="part3">
+    <div class="max-width-1280 paddingy-64 paddingx-32 mx-auto">
+      <p class="title-3">
+        How brands leverage Heystack Insights
+      </p>
+      <div class="marginy-64 d-flex flex-column gap-8rem">
+        <div class="d-flex flex-column gap-8rem">
+          <div class="d-flex flex-row align-items-center gap-4rem">
+            <div class="w-100">
+              <h1 class="subtitle-3 mb-3">Minimize Optimizations</h1>
+              <p class="fs-6 ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
+                scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
+                scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt
+              </p>
+              <a href="#" class="learn-btn">
+                <img src="./assets/part3/learn-btn.svg" alt="">
+              </a>
+              <div class="subline mt-3"></div>
+            </div>
+            <div class="w-100">
+              <div class="dashboard-image w-100 h-100">
+                <img class="w-100 h-100 rounded-05" src="./assets/part3/content.webp" alt=""
+                  class="img-fluid rounded shadow">
+              </div>
             </div>
           </div>
-          <iframe
-            class="iframe"
-            width="1400"
-            height="368" 
-            src="https://rive.app/community/7548-15148-looping-animation-02/embed"
-            allowfullscreen
-            frameborder="0"
-          ></iframe>
         </div>
-      </div>
-    </div>
-    <div class="part2 paddingy-64">
-      <p class="text-center brands">Brands that <span class="text-primary">trust us</span></p>
-        <div class="brand-slider py-3">
-          <div class="slide-track">
-            <div class="slide"><img src="./assets/brands/brand (1).svg" alt="Brand 1"></div>
-            <div class="slide"><img src="./assets/brands/brand (2).svg" alt="Brand 2"></div>
-            <div class="slide"><img src="./assets/brands/brand (3).svg" alt="Brand 3"></div>
-            <div class="slide"><img src="./assets/brands/brand (4).svg" alt="Brand 4"></div>
-            <div class="slide"><img src="./assets/brands/brand (5).svg" alt="Brand 5"></div>
-            <div class="slide"><img src="./assets/brands/brand (6).svg" alt="Brand 6"></div>
-            <div class="slide"><img src="./assets/brands/brand (7).svg" alt="Brand 7"></div>
-            <div class="slide"><img src="./assets/brands/brand (8).svg" alt="Brand 8"></div>
-            <div class="slide"><img src="./assets/brands/brand (9).svg" alt="Brand 9"></div>
-            <div class="slide"><img src="./assets/brands/brand (10).svg" alt="Brand 10"></div>
-            <div class="slide"><img src="./assets/brands/brand (11).svg" alt="Brand 11"></div>
-            <div class="slide"><img src="./assets/brands/brand (12).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (13).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (14).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (15).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (16).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (17).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (18).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (19).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (20).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (21).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (22).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (23).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (24).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (25).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (26).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (27).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (28).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (29).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (30).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (31).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (32).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (33).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (34).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (35).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (36).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (37).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (38).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (39).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (40).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (41).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (42).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (43).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (44).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (45).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (46).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (47).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (48).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (49).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (50).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (51).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (52).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (53).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (54).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (55).svg" alt="Brand 12"></div>
-          </div>
-        </div>
-        <div class="brand-slider reverse">
-          <div class="slide-track">
-            <div class="slide"><img src="./assets/brands/brand (1).svg" alt="Brand 1"></div>
-            <div class="slide"><img src="./assets/brands/brand (2).svg" alt="Brand 2"></div>
-            <div class="slide"><img src="./assets/brands/brand (3).svg" alt="Brand 3"></div>
-            <div class="slide"><img src="./assets/brands/brand (4).svg" alt="Brand 4"></div>
-            <div class="slide"><img src="./assets/brands/brand (5).svg" alt="Brand 5"></div>
-            <div class="slide"><img src="./assets/brands/brand (6).svg" alt="Brand 6"></div>
-            <div class="slide"><img src="./assets/brands/brand (7).svg" alt="Brand 7"></div>
-            <div class="slide"><img src="./assets/brands/brand (8).svg" alt="Brand 8"></div>
-            <div class="slide"><img src="./assets/brands/brand (9).svg" alt="Brand 9"></div>
-            <div class="slide"><img src="./assets/brands/brand (10).svg" alt="Brand 10"></div>
-            <div class="slide"><img src="./assets/brands/brand (11).svg" alt="Brand 11"></div>
-            <div class="slide"><img src="./assets/brands/brand (12).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (13).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (14).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (15).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (16).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (17).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (18).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (19).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (20).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (21).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (22).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (23).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (24).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (25).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (26).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (27).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (28).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (29).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (30).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (31).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (32).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (33).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (34).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (35).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (36).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (37).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (38).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (39).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (40).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (41).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (42).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (43).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (44).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (45).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (46).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (47).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (48).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (49).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (50).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (51).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (52).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (53).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (54).svg" alt="Brand 12"></div>
-            <div class="slide"><img src="./assets/brands/brand (55).svg" alt="Brand 12"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="part3">
-      <div class="max-width-1280 paddingy-64 paddingx-32 mx-auto">
-        <p class="title-3">
-          How brands leverage Heystack Insights
-        </p>
-        <div class="container d-flex flex-column marginy-64 gap-8rem">
+        <div class="d-flex flex-column gap-8rem">
           <div class="d-flex flex-row align-items-center gap-4rem">
-              <div class="w-100">
-                  <h1 class="subtitle-3 mb-3">Minimize Optimizations</h1>
-                  <p class="fs-6 ">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet 
-                      scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt Lorem 
-                      ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet 
-                      scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt
-                  </p>
-                  <a href="#" class="learn-btn">
-                      <img src="./assets/part3/learn-btn.svg" alt="">
-                  </a>
-                  <div class="subline mt-3"></div>
+            <div class="w-100">
+              <div class="dashboard-image w-100 h-100">
+                <img class="w-100 h-100 rounded-05" src="./assets/part3/content.webp" alt=""
+                  class="img-fluid rounded shadow">
               </div>
-              
-              <div class="w-100">
-                  <div class="dashboard-image w-100 h-100">
-                      <img class="w-100 h-100 rounded-05" src="./assets/part3/content.webp" alt="" class="img-fluid rounded shadow">
-                  </div>
+            </div>
+            <div class="w-100">
+              <h1 class="subtitle-3 mb-3">Minimize Optimizations</h1>
+              <p class="fs-6 ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
+                scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
+                scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt
+              </p>
+              <a href="#" class="learn-btn">
+                <img src="./assets/part3/learn-btn.svg" alt="">
+              </a>
+              <div class="subline mt-3"></div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column gap-8rem">
+          <div class="d-flex flex-row align-items-center gap-4rem">
+            <div class="w-100">
+              <h1 class="subtitle-3 mb-3">Minimize Optimizations</h1>
+              <p class="fs-6 ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
+                scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
+                scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt
+              </p>
+              <a href="#" class="learn-btn">
+                <img src="./assets/part3/learn-btn.svg" alt="">
+              </a>
+              <div class="subline mt-3"></div>
+            </div>
+            <div class="w-100">
+              <div class="dashboard-image w-100 h-100">
+                <img class="w-100 h-100 rounded-05" src="./assets/part3/content.webp" alt=""
+                  class="img-fluid rounded shadow">
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column gap-8rem">
+          <div class="d-flex flex-row align-items-center gap-4rem">
+            <div class="w-100">
+              <div class="dashboard-image w-100 h-100">
+                <img class="w-100 h-100 rounded-05" src="./assets/part3/content.webp" alt=""
+                  class="img-fluid rounded shadow">
+              </div>
+            </div>
+            <div class="w-100">
+              <h1 class="subtitle-3 mb-3">Minimize Optimizations</h1>
+              <p class="fs-6 ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
+                scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
+                scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt
+              </p>
+              <a href="#" class="learn-btn">
+                <img src="./assets/part3/learn-btn.svg" alt="">
+              </a>
+              <div class="subline mt-3"></div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column gap-8rem">
+          <div class="d-flex flex-row align-items-center gap-4rem">
+            <div class="w-100">
+              <h1 class="subtitle-3 mb-3">Minimize Optimizations</h1>
+              <p class="fs-6 ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
+                scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
+                scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt
+              </p>
+              <a href="#" class="learn-btn">
+                <img src="./assets/part3/learn-btn.svg" alt="">
+              </a>
+              <div class="subline mt-3"></div>
+            </div>
+            <div class="w-100">
+              <div class="dashboard-image w-100 h-100">
+                <img class="w-100 h-100 rounded-05" src="./assets/part3/content.webp" alt=""
+                  class="img-fluid rounded shadow">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+  <div class="part4">
+    <div class="max-width-1280 paddingy-64 paddingx-32 mx-auto">
+      <p class="title-3 m-0">
+        Testimonials
+      </p>
+      <p class="text-center font-24 pt-1 m-0">What peoaple say about us</p>
+      <div class="slide-container swiper">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card d-flex flex-column gap-12 font-14 swiper-slide paddingx-32 paddingy-32">
+              <p class="m-0 fs-6 fw-bold">“The best Webflow Templates”</p>
+              <p class="m-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat aute irure sint amet occaecat cupidatat non proident</p>
+              <div class="d-flex flex-row gap-1rem">
+                <img class="testimonial-avatar" src="./assets/testimonial/avatar.webp" alt="">
+                <div class="flex flex-column">
+                  <p class="m-0 fw-bold">Sophia Moore</p>
+                  <p class="m-0">CEO at Webflow Agency</p>
+                </div>
+              </div>
+            </div>
+            <div class="card d-flex flex-column gap-12 font-14 swiper-slide paddingx-32 paddingy-32">
+              <p class="m-0 fs-6 fw-bold">“The best Webflow Templates”</p>
+              <p class="m-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat aute irure sint amet occaecat cupidatat non proident</p>
+              <div class="d-flex flex-row gap-1rem">
+                <img class="testimonial-avatar" src="./assets/testimonial/avatar.webp" alt="">
+                <div class="flex flex-column">
+                  <p class="m-0 fw-bold">Sophia Moore</p>
+                  <p class="m-0">CEO at Webflow Agency</p>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide d-flex flex-column gap-12 font-14 paddingx-32 paddingy-32">
+              <p class="m-0 fs-6 fw-bold">“The best Webflow Templates”</p>
+              <p class="m-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat aute irure sint amet occaecat cupidatat non proident</p>
+              <div class="d-flex flex-row gap-1rem">
+                <img class="testimonial-avatar" src="./assets/testimonial/avatar.webp" alt="">
+                <div class="flex flex-column">
+                  <p class="m-0 fw-bold">Sophia Moore</p>
+                  <p class="m-0">CEO at Webflow Agency</p>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide d-flex flex-column gap-12 font-14 paddingx-32 paddingy-32">
+              <p class="m-0 fs-6 fw-bold">“The best Webflow Templates”</p>
+              <p class="m-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat aute irure sint amet occaecat cupidatat non proident</p>
+              <div class="d-flex flex-row gap-1rem">
+                <img class="testimonial-avatar" src="./assets/testimonial/avatar.webp" alt="">
+                <div class="flex flex-column">
+                  <p class="m-0 fw-bold">Sophia Moore</p>
+                  <p class="m-0">CEO at Webflow Agency</p>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide d-flex flex-column gap-12 font-14 paddingx-32 paddingy-32">
+              <p class="m-0 fs-6 fw-bold">“The best Webflow Templates”</p>
+              <p class="m-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat aute irure sint amet occaecat cupidatat non proident</p>
+              <div class="d-flex flex-row gap-1rem">
+                <img class="testimonial-avatar" src="./assets/testimonial/avatar.webp" alt="">
+                <div class="flex flex-column">
+                  <p class="m-0 fw-bold">Sophia Moore</p>
+                  <p class="m-0">CEO at Webflow Agency</p>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide d-flex flex-column gap-12 font-14 paddingx-32 paddingy-32">
+              <p class="m-0 fs-6 fw-bold">“The best Webflow Templates”</p>
+              <p class="m-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat aute irure sint amet occaecat cupidatat non proident</p>
+              <div class="d-flex flex-row gap-1rem">
+                <img class="testimonial-avatar" src="./assets/testimonial/avatar.webp" alt="">
+                <div class="flex flex-column">
+                  <p class="m-0 fw-bold">Sophia Moore</p>
+                  <p class="m-0">CEO at Webflow Agency</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+</html>
+
+
+</div>
+</body>
+
 </html>
