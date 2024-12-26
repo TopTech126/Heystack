@@ -16,51 +16,65 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="./static/css/testimonials.css">
     <link rel="stylesheet" href="./static/css/partners.css">
+    <link rel="stylesheet" href="./static/css/navbar.css">
     <script defer src="./static/js/main.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script defer src="./static/js/testimonials.js"></script>
     <script defer src="./static/js/partners.js"></script>
+    <script defer src="./static/js/navbar.js"></script>
 </head>
 
-<body>
-<!--     <div class="part1 bg-gradient1">
-        <div class="semicircle position-absolute bottom-0 start-0">
-            <img src="./assets/generative/semicircle.webp" alt="" />
+<body class="position-relative">
+    <div class="navbar position-absolute top-0 start-0">
+        <div class="navbar-container">
+          <a href="/index.html" class="logo d-flex align-items-center gap-2 navbar-brand">
+            <img class="logo-img" src="./assets/logo/logo.webp" alt="" />
+            <span class="">Heystack</span>
+          </a>
+          <ul class="navbar-nav d-flex flex-row nav-main">
+            <li class="nav-item"> <a class="nav-link" href="/index.html">Home</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#customers">Customers</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#products">Prouducts</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#technology">Technology</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#retailers">Retailers</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="./blog.html">Blogs</a> </li>
+          </ul>
+          <div class="nav-btn-container">
+            <button class="nav-btn">SEE LIVE IN ACTION</button>
+          </div>
+          <button class="navbar-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-        <div class="navbar position-relative">
-            <div class="logo d-flex align-items-center gap-2">
+        <div class="modal">
+          <div class="modal-content">
+            <div class="modal-header d-flex justify-content-between">
+              <a href="/index.html" class="logo d-flex align-items-center gap-2 navbar-brand">
                 <img class="logo-img" src="./assets/logo/logo.webp" alt="" />
-                <div>
-                    <span class="">Heystack</span>
-                </div>
+                <span class="">Heystack</span>
+              </a>
+              <div class="close-btn modal-close">
+                <span class="" style="color: rgb(143, 143, 143);"><img src="./assets/logo/close.svg" alt=""></span>
+              </div>
             </div>
-            <div class="" id="navbarNav">
-                <ul class="navbar-nav d-flex flex-row nav-main">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Customers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Prouducts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Technology</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Retailers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blogs</a>
-                    </li>
-                </ul>
+            <div class="padding-24 paddingx-20">
+              <ul class="modal-nav">
+                <li class=""><a href="/index.html">Home</a></li>
+                <li class=""><a href="#customers">Customers</a></li>
+                <li class=""><a href="#products">Products</a></li>
+                <li class=""><a href="#technology">Technology</a></li>
+                <li class=""><a href="#retailers">Retailers</a></li>
+                <li class=""><a href="./blog.html">Blogs</a></li>
+              </ul>
+              <div class="modal-nav-btn-container">
+                <button class="modal-nav-btn">SEE LIVE IN ACTION</button>
+              </div>
             </div>
-            <div class="nav-btn-container">
-                <button class="nav-btn">SEE LIVE IN ACTION</button>
-            </div>
+          </div>
         </div>
-    </div> -->
+      </div>
     <div style="background-color:rgb(235, 240, 245);display: flex; align-items: center; justify-content: center; padding: 40px; ">
         <div style="display: flex; flex-direction: column; gap: 20px; width: 1290px; ">
             <div style="background: linear-gradient(45deg, #542de8, #EC276E, #542de8); background-clip:text; font-weight: 800; font-size: 2.25rem;line-height: 2.5rem; color: transparent;">

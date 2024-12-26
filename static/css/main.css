@@ -124,6 +124,7 @@
 
 @media (max-width: 1023px) {
 	.title {
+		margin-top: 60px;
 		font-size: 30px;
 	}
 
@@ -144,6 +145,10 @@
 }
 
 @media (max-width: 1024px) {
+	.home-main {
+		height: auto;
+	}
+
 	.title {
 		margin-top: 80px;
 		font-size: 30px;
@@ -153,8 +158,9 @@
 @media (max-width: 768px) {
 	.title {
 		margin-top: 80px;
+		margin-left: 0;
+		margin-right: 0;
 		font-size: 22px;
-		margin: 0;
 	}
 
 	.title-box {
@@ -528,17 +534,27 @@
 	bottom: 20px;
 	right: 20px;
 	z-index: 99;
-	font-size: 18px;
+	font-size: 14px;
 	border: none;
 	outline: none;
-	background-color: #333;
-	color: #fff;
+	/* color: #6b7280; */
+	color: black;
+	background-color: #ffffff00;
 	cursor: pointer;
 	padding: 15px;
 	border-radius: 50%;
 	transition: opacity 0.3s;
-  }
-  
-  .back-to-top-btn:hover {
-	background-color: #555;
-  }
+}
+
+.top-arrow {
+	height: 32px;
+	width: 32px;
+	padding: 4px;
+	border: #9f9f9f solid 0.1px;
+	border-radius: 50%;
+	color: #b9b9b9;
+}
+
+.top-arrow:hover {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
