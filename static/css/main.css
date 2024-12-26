@@ -528,6 +528,21 @@
 	color: #9CA3AF;
 }
 
+.contact-info p a {
+	text-decoration: none;
+	color: black;
+}
+
+.footer-links {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-links a {
+	text-decoration: none;
+	color: black;
+}
+
 .back-to-top-btn {
 	display: none;
 	position: fixed;
@@ -553,6 +568,7 @@
 	border: #9f9f9f solid 0.1px;
 	border-radius: 50%;
 	color: #b9b9b9;
+	background-color: white;
 }
 
 .top-arrow:hover {
