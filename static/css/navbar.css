@@ -5,7 +5,9 @@
     flex-direction: row;
     justify-content: center;
     z-index: +20;
+    background-color: #E4ECFF;
 }
+
 .logo {
     color: #415082;
     font-size: 21px;
@@ -74,6 +76,14 @@
 }
 
 @media (max-width: 1023px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+      }
+
     .navbar-container {
         width: 100%;
         display: flex;
