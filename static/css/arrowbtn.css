@@ -1,0 +1,35 @@
+.arrow-button {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #bdbdbd;
+    box-shadow: 0 0 5px grey;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-button:hover {
+    box-shadow: 0 0 5px rgba(202, 202, 202, 0.7);
+    border-color: grey;
+}
+
+.arrow-svg {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.arrow-next:hover .arrow-svg {
+    transform: translateX(2px);
+}
+
+.arrow-prev:hover .arrow-svg {
+    transform: translateX(-2px);
+}

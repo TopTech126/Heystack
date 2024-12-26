@@ -28,12 +28,16 @@
   font-size: 35px;
 }
 
-.swiper-button-next {
-  right: 0;
+.arrow-next {
+  top: 45%;
+  right: 20px;
+  z-index: +5;
 }
 
-.swiper-button-prev {
-  left: 0;
+.arrow-prev {
+  top: 45%;
+  left: 10px;
+  z-index: +5;
 }
 
 .swiper-pagination-bullet {

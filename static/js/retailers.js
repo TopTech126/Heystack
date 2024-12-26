@@ -1,4 +1,4 @@
-var swiper = new Swiper(".partners-content", {
+var swiper = new Swiper(".retailers-content", {
   slidesPerView: 5,
   spaceBetween: 10,
   loop: true,
@@ -11,8 +11,8 @@ var swiper = new Swiper(".partners-content", {
     dynamicBullets: true,
   },
   navigation: {
-    nextEl: ".partners-button-next",
-    prevEl: ".partners-button-prev",
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 
   breakpoints: {

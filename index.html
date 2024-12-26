@@ -13,11 +13,12 @@
   <link rel="stylesheet" href="./static/css/main.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="./static/css/testimonials.css">
-  <link rel="stylesheet" href="./static/css/partners.css">
+  <link rel="stylesheet" href="./static/css/retailers.css">
+  <link rel="stylesheet" href="./static/css/arrowbtn.css">
   <script defer src="./static/js/main.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script defer src="./static/js/testimonials.js"></script>
-  <script defer src="./static/js/partners.js"></script>
+  <script defer src="./static/js/retailers.js"></script>
 </head>
 
 <body>
@@ -327,7 +328,7 @@
         Testimonials
       </p>
       <p class="text-center font-24 pt-1 m-0">What peoaple say about us</p>
-      <div class="slide-container swiper">
+      <div class="slide-container swiper position-relative">
         <div class="slide-content">
           <div class="card-wrapper swiper-wrapper">
             <div class="card d-flex flex-column gap-12 font-14 swiper-slide paddingx-32 paddingy-32">
@@ -405,9 +406,24 @@
           </div>
         </div>
 
-        <div class="swiper-button-next swiper-navBtn"></div>
-        <div class="swiper-button-prev swiper-navBtn"></div>
-        <div class="swiper-pagination"></div>
+        <button class="arrow-button arrow-next position-absolute">
+          <svg class="arrow-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 6l6 6-6 6" stroke="grey" stroke-width="2" fill="none" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+
+        <button class="arrow-button arrow-prev position-absolute">
+          <svg class="arrow-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6l-6 6 6 6" stroke="grey" stroke-width="2" fill="none" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+
+
+        <!-- <div class="swiper-button-next swiper-navBtn"></div> -->
+        <!-- <div class="swiper-button-prev swiper-navBtn"></div> -->
+        <!-- <div class="swiper-pagination"></div> -->
       </div>
     </div>
   </div>
@@ -460,94 +476,93 @@
       Retail Partners?
     </p>
     <div class="position-relative swiper-container swiper">
-      <div class="partners-content">
+      <div class="retailers-content">
         <div class="card-wrapper swiper-wrapper" style=" display: flex; flex-direction: row;">
           <div class="d-flex flex-column gap-40 swiper-slide">
             <div class="partner-card">
-              <img src="./assets/partners/target.svg" alt="">
+              <img src="./assets/retailers/target.svg" alt="">
             </div>
             <div class="partner-card">
-              <img src="./assets/partners/zappos.svg" alt="">
-            </div>
-          </div>
-          <div class="d-flex flex-column gap-40 swiper-slide">
-            <div class="partner-card">
-              <img src="./assets/partners/bestbuy.svg" alt="">
-            </div>
-            <div class="partner-card">
-              <img src="./assets/partners/homedepot.svg" alt="">
+              <img src="./assets/retailers/zappos.svg" alt="">
             </div>
           </div>
           <div class="d-flex flex-column gap-40 swiper-slide">
             <div class="partner-card">
-              <img src="./assets/partners/lowes.svg" alt="">
+              <img src="./assets/retailers/bestbuy.svg" alt="">
             </div>
             <div class="partner-card">
-              <img src="./assets/partners/wayfire.svg" alt="">
-            </div>
-          </div>
-          <div class="d-flex flex-column gap-40 swiper-slide">
-            <div class="partner-card">
-              <img src="./assets/partners/chewy.svg" alt="">
-            </div>
-            <div class="partner-card">
-              <img src="./assets/partners/petco.svg" alt="">
+              <img src="./assets/retailers/homedepot.svg" alt="">
             </div>
           </div>
           <div class="d-flex flex-column gap-40 swiper-slide">
             <div class="partner-card">
-              <img src="./assets/partners/restmart.svg" alt="">
+              <img src="./assets/retailers/lowes.svg" alt="">
             </div>
             <div class="partner-card">
-              <img src="./assets/partners/sephora.svg" alt="">
-            </div>
-          </div>
-          <div class="d-flex flex-column gap-40 swiper-slide">
-            <div class="partner-card">
-              <img src="./assets/partners/ulta.svg" alt="">
-            </div>
-            <div class="partner-card">
-              <img src="./assets/partners/chewy.svg" alt="">
+              <img src="./assets/retailers/wayfire.svg" alt="">
             </div>
           </div>
           <div class="d-flex flex-column gap-40 swiper-slide">
             <div class="partner-card">
-              <img src="./assets/partners/macys.svg" alt="">
+              <img src="./assets/retailers/chewy.svg" alt="">
             </div>
             <div class="partner-card">
-              <img src="./assets/partners/nordstrom.svg" alt="">
-            </div>
-          </div>
-          <div class="d-flex flex-column gap-40 swiper-slide">
-            <div class="partner-card">
-              <img src="./assets/partners/kohls.svg" alt="">
-            </div>
-            <div class="partner-card">
-              <img src="./assets/partners/dicks.svg" alt="">
+              <img src="./assets/retailers/petco.svg" alt="">
             </div>
           </div>
           <div class="d-flex flex-column gap-40 swiper-slide">
             <div class="partner-card">
-              <img src="./assets/partners/acehardware.svg" alt="">
+              <img src="./assets/retailers/restmart.svg" alt="">
             </div>
             <div class="partner-card">
-              <img src="./assets/partners/tractorsupply.svg" alt="">
+              <img src="./assets/retailers/sephora.svg" alt="">
             </div>
           </div>
           <div class="d-flex flex-column gap-40 swiper-slide">
             <div class="partner-card">
-              <img src="./assets/partners/academy.svg" alt="">
+              <img src="./assets/retailers/ulta.svg" alt="">
             </div>
             <div class="partner-card">
-              <img src="./assets/partners/dsw.svg" alt="">
+              <img src="./assets/retailers/chewy.svg" alt="">
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-40 swiper-slide">
+            <div class="partner-card">
+              <img src="./assets/retailers/macys.svg" alt="">
+            </div>
+            <div class="partner-card">
+              <img src="./assets/retailers/nordstrom.svg" alt="">
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-40 swiper-slide">
+            <div class="partner-card">
+              <img src="./assets/retailers/kohls.svg" alt="">
+            </div>
+            <div class="partner-card">
+              <img src="./assets/retailers/dicks.svg" alt="">
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-40 swiper-slide">
+            <div class="partner-card">
+              <img src="./assets/retailers/acehardware.svg" alt="">
+            </div>
+            <div class="partner-card">
+              <img src="./assets/retailers/tractorsupply.svg" alt="">
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-40 swiper-slide">
+            <div class="partner-card">
+              <img src="./assets/retailers/academy.svg" alt="">
+            </div>
+            <div class="partner-card">
+              <img src="./assets/retailers/dsw.svg" alt="">
             </div>
           </div>
         </div>
       </div>
 
-      <div class="position-absolute top-50 start-0 partners-button-next partners-navBtn"></div>
-      <div class="position-absolute top-0 end-0 partners-button-prev partners-navBtn"></div>
-      <div class="swiper-pagination2"></div>
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
     </div>
   </div>
   <div class="margintop-112 padding-24 ">

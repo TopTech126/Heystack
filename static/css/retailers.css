@@ -1,34 +1,34 @@
-.partners-container {
+.retailer-container {
   width: 100%;
   padding: 0 0;
   padding: 40px 0;
 }
 
-.partners-content {
+.retailer-content {
 	margin: 0 40px;
 	overflow: hidden;
 	border-radius: 25px;
 }
 
-.partners-navBtn {
+.swiper-navBtn {
   color: #6E93f7;
   transition: color 0.3s ease;
 }
 
-.partners-navBtn:hover {
+.swiper-navBtn:hover {
   color: #4070F4;
 }
 
-.partners-navBtn::before,
-.partners-navBtn::after {
+.swiper-navBtn::before,
+.swiper-navBtn::after {
   font-size: 35px;
 }
 
-.partners-button-next {
+.swiper-button-next {
   right: 0;
 }
 
-.partners-button-prev {
+.swiper-button-prev {
   left: 0;
 }
 
