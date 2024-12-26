@@ -16,7 +16,6 @@
 }
 
 .paddingy-64 {
-	/* padding: 64px 0; */
 	padding-top: 64px;
 	padding-bottom: 64px;
 }
@@ -198,10 +197,6 @@
 	text-transform: uppercase;
 }
 
-/* .main-image {
-	max-width: ;
-} */
-
 .iframe {
 	max-width: 1400px;
 	max-height: 368px;
@@ -255,7 +250,6 @@
 	background: white;
 }
 
-/* Add gradient overlays */
 .brand-slider::before,
 .brand-slider::after {
 	content: "";
@@ -421,12 +415,13 @@
 }
 
 .technology-card:nth-child(2) {
-	border-bottom: 1px solid #dee2e6;
+	/* border-bottom: 1px solid #dee2e6; */
 	border-right: 1px solid #dee2e6;
 }
 
 .technology-card:nth-child(3) {
-	border-bottom: 1px solid #dee2e6;
+	/* border-bottom: 1px solid #dee2e6; */
+	border-right: 1px solid #dee2e6;
 }
 
 .technology-card:nth-child(4) {
@@ -460,11 +455,11 @@
 	}
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 	.technology-card {
 		border-right: none;
 	}
-}
+} */
 
 .technology-img {
 	height: 50px;
