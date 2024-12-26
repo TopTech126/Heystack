@@ -277,11 +277,17 @@
 	animation: scroll 40s linear infinite;
 }
 
-.brand-slider.reverse .slide-track {
+.slide-track-reverse {
+	display: flex;
+	width: calc(200px * 12);
 	animation: scroll-reverse 40s linear infinite;
 }
 
 .slide-track:hover {
+	animation-play-state: paused;
+}
+
+.slide-track-reverse:hover {
 	animation-play-state: paused;
 }
 
