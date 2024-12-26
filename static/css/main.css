@@ -91,7 +91,7 @@
 	font-size: 14px;
 }
 
-.part1 {
+.home {
 	position: relative;
 	background: linear-gradient(179deg, #e4ecff 1.11%, rgba(234, 240, 255, 0) 103.22%);
 }
@@ -153,7 +153,7 @@
 	font-weight: bold;
 }
 
-.part1-main {
+.home-main {
 	height: 100vh;
 	max-width: 1280px;
 	margin: auto;
@@ -164,7 +164,12 @@
 	.title {
 		font-size: 30px;
 	}
-	.part1-main {
+	
+	.semicircle {
+		display: none;
+	}
+
+	.home-main {
 		height: auto;
 		max-width: 100%;
 	}
