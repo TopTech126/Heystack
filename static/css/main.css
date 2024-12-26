@@ -150,6 +150,18 @@
 	}
 }
 
+@media (max-width: 768px) {
+	.title {
+		margin-top: 80px;
+		font-size: 22px;
+		margin: 0;
+	}
+
+	.title-box {
+		margin: 0;
+	}
+}
+
 .demo-btn {
 	height: 30px;
 	color: #1943CC;
