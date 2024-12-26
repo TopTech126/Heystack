@@ -330,7 +330,7 @@
 	transition: all 0.3s ease;
 }
 
-.part3 {
+.products {
 	background: linear-gradient(179deg, #fff 3.24%, #e4ecff 53.76%, rgba(234, 240, 255, 0) 103.22%);
 }
 
@@ -398,59 +398,75 @@
 	border-top: #D1D5DB solid 0.1px;
 }
 
+.testimonials {
+	background-image: linear-gradient(to top, #eaf0ff, rgba(234, 240, 255, 0));
+}
+
 .testimonial-avatar {
 	border-radius: 100%;
 }
 
-.unique-card:nth-child(1) {
+.technology {
+	background-image: linear-gradient(to bottom, #eaf0ff, rgba(234, 240, 255, 0));
+}
+
+.technology-card:nth-child(1) {
 	border-bottom: 1px solid #dee2e6;
 	border-right: 1px solid #dee2e6;
 }
 
-.unique-card:nth-child(2) {
+.technology-card:nth-child(2) {
 	border-bottom: 1px solid #dee2e6;
 	border-right: 1px solid #dee2e6;
 }
 
-.unique-card:nth-child(3) {
+.technology-card:nth-child(3) {
 	border-bottom: 1px solid #dee2e6;
 }
 
-.unique-card:nth-child(4) {
+.technology-card:nth-child(4) {
 	border-right: 1px solid #dee2e6;
 }
 
-.unique-card:nth-child(5) {
+.technology-card:nth-child(5) {
 	border-right: 1px solid #dee2e6;
 }
 
-.unique-card {
+.technology-card {
 	transition: box-shadow 0.3s ease;
 	cursor: pointer;
 }
 
-.unique-card:hover {
+.technology-card:hover {
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
+@media (max-width: 1024px) {
+	.technology-card {
+		width: 50%;
+	}
+}
+
 @media (max-width: 767.98px) {
-	.unique-card {
+	.technology-card {
+		width: 100%;
 		border-right: none;
+		border-bottom: 1px solid #dee2e6;
 	}
 }
 
 @media (min-width: 768px) {
-	.unique-card {
+	.technology-card {
 		border-right: none;
 	}
 }
 
-.unique-img {
+.technology-img {
 	height: 50px;
 	width: 50px;
 }
 
-.partner-card {
+.retailer-card {
 	height: 150px;
 	width: 100px;
 }
