@@ -553,6 +553,7 @@
 	border: #9f9f9f solid 0.1px;
 	border-radius: 50%;
 	color: #b9b9b9;
+	background-color: white;
 }
 
 .top-arrow:hover {
