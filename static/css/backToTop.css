@@ -1,0 +1,20 @@
+.back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  transition: opacity 0.3s;
+}
+
+.back-to-top-btn:hover {
+  background-color: #555;
+}
