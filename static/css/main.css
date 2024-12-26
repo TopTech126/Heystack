@@ -101,6 +101,7 @@
 
 .home {
 	position: relative;
+	padding-top: 50px;
 	background: linear-gradient(179deg, #e4ecff 1.11%, rgba(234, 240, 255, 0) 103.22%);
 }
 
@@ -137,21 +138,31 @@
 }
 
 .title {
+	font-size: 36px;
 	color: #1943CC;
 	margin: 8px 80px;
+}
+
+@media (max-width: 1024px) {
+	.title {
+		margin-top: 80px;
+		font-size: 30px;
+	}
 }
 
 .demo-btn {
 	height: 30px;
 	color: #1943CC;
+	cursor: pointer;
 }
 
-.demo-btn>button {
+.demo-btn>a {
 	color: #1943CC;
 	background-color: #4150821A;
 	height: 30px;
 	font-size: 14px;
 	font-weight: 600;
+	text-decoration: none;
 	padding: 4px 24px;
 	font-size: 14px;
 	border: #1943CC 1px solid;

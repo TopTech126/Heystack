@@ -23,18 +23,13 @@
   <script defer src="./static/js/navbar.js"></script>
 </head>
 
-<body>
-  <div class="home" id="home">
-    <div class="semicircle position-absolute bottom-0 start-0">
-      <img src="./assets/generative/semicircle.webp" alt="" />
-    </div>
-
-    <div class="navbar position-relative">
+<body class="position-relative">
+  <div class="navbar position-absolute top-0 start-0">
+    <div class="navbar-container">
       <a href="/index.html" class="logo d-flex align-items-center gap-2 navbar-brand">
         <img class="logo-img" src="./assets/logo/logo.webp" alt="" />
         <span class="">Heystack</span>
       </a>
-
       <ul class="navbar-nav d-flex flex-row nav-main">
         <li class="nav-item"> <a class="nav-link" href="/index.html">Home</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#customers">Customers</a> </li>
@@ -52,7 +47,6 @@
         <span class="icon-bar"></span>
       </button>
     </div>
-
     <div class="modal">
       <div class="modal-content">
         <div class="modal-header d-flex justify-content-between">
@@ -74,12 +68,16 @@
             <li class=""><a href="blogs.html">Blogs</a></li>
           </ul>
           <div class="modal-nav-btn-container">
-            <button class="modal-nav-btn" >SEE LIVE IN ACTION</button>
+            <button class="modal-nav-btn">SEE LIVE IN ACTION</button>
           </div>
         </div>
       </div>
     </div>
-
+  </div>
+  <div class="home position-relative" id="home">
+    <div class="semicircle position-absolute bottom-0 start-0">
+      <img src="./assets/generative/semicircle.webp" alt="" />
+    </div>
     <div class="home-main position-relative d-flex align-items-center m-auto w-100">
       <div class="d-flex flex-column w-100">
         <div class="paddingx-40 mb-2">
@@ -94,7 +92,7 @@
             advantage.
           </p>
           <div class="demo-btn text-center mt-4">
-            <button class="fw-bold">LIVE DEMO</button>
+            <a class="fw-bold" href="/sharadkraj/heystack-demo">LIVE DEMO</a>
           </div>
         </div>
         <div class="main-image w-100">
