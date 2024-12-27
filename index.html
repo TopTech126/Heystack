@@ -19,17 +19,19 @@
   <link rel="stylesheet" href="./static/css/arrowbtn.css">
   <link rel="stylesheet" href="./static/css/navbar.css">
   <link rel="stylesheet" href="./static/css/totopbtn.css" />
+  <link rel="stylesheet" href="./static/css/book-modal.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script defer src="./static/js/testimonials.js"></script>
   <script defer src="./static/js/retailers.js"></script>
   <script defer src="./static/js/navbar.js"></script>
   <script defer src="./static/js/totopbtn.js"></script>
+  <script defer src="./static/js/book-modal.js"></script>
 </head>
 
 <body class="position-relative">
   <div class="navbar top-0 start-0">
     <div class="navbar-container">
-      <a href="./index.html" class="logo d-flex align-items-center gap-2 navbar-brand">
+      <a href="index.html" class="logo d-flex align-items-center gap-2 navbar-brand">
         <img class="logo-img" src="./assets/logo/logo.ico" alt="" />
         <span class="">Heystack</span>
       </a>
@@ -42,7 +44,7 @@
         <li class="nav-item"> <a class="nav-link" href="./blog.html">Blogs</a> </li>
       </ul>
       <div class="nav-btn-container">
-        <button class="nav-btn">SEE LIVE IN ACTION</button>
+        <button class="nav-btn" id="open-book-modal">SEE LIVE IN ACTION</button>
       </div>
       <button class="navbar-toggle">
         <span class="icon-bar"></span>
@@ -53,7 +55,7 @@
     <div class="modal">
       <div class="modal-content">
         <div class="modal-header d-flex justify-content-between">
-          <a href="/index.html" class="logo d-flex align-items-center gap-2 navbar-brand">
+          <a href="index.html" class="logo d-flex align-items-center gap-2 navbar-brand">
             <img class="logo-img" src="./assets/logo/logo.ico" alt="" />
             <span class="">Heystack</span>
           </a>
@@ -71,7 +73,7 @@
             <li class=""><a href="./blog.html">Blogs</a></li>
           </ul>
           <div class="modal-nav-btn-container">
-            <button class="modal-nav-btn">SEE LIVE IN ACTION</button>
+            <button class="modal-nav-btn" id="open2-book-modal">SEE LIVE IN ACTION</button>
           </div>
         </div>
       </div>
@@ -247,7 +249,7 @@
                 scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt
               </p>
               <a class="learn-btn" href="./minimize_returns.html" target="_blank">
-                <img width="200" src="./assets/products/learn-btn.svg" alt="" >
+                <img width="200" src="./assets/products/learn-btn.svg" alt="">
               </a>
               <div class="subline mt-3"></div>
             </div>
@@ -272,7 +274,7 @@
                 scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt
               </p>
               <a class="learn-btn" href="./minimize_returns.html" target="_blank">
-                <img width="200" src="./assets/products/learn-btn.svg" alt="" >
+                <img width="200" src="./assets/products/learn-btn.svg" alt="">
               </a>
               <div class="subline mt-3"></div>
             </div>
@@ -289,7 +291,7 @@
                 scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt
               </p>
               <a class="learn-btn" href="./minimize_returns.html" target="_blank">
-                <img width="200" src="./assets/products/learn-btn.svg" alt="" >
+                <img width="200" src="./assets/products/learn-btn.svg" alt="">
               </a>
               <div class="subline mt-3"></div>
             </div>
@@ -314,7 +316,7 @@
                 scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt
               </p>
               <a class="learn-btn" href="./minimize_returns.html" target="_blank">
-                <img width="200" src="./assets/products/learn-btn.svg" alt="" >
+                <img width="200" src="./assets/products/learn-btn.svg" alt="">
               </a>
               <div class="subline mt-3"></div>
             </div>
@@ -331,7 +333,7 @@
                 scelerisque eros, sed tempor velit consectetur in. Morbi tincidunt
               </p>
               <a class="learn-btn" href="./minimize_returns.html" target="_blank">
-                <img width="200" src="./assets/products/learn-btn.svg" alt="" >
+                <img width="200" src="./assets/products/learn-btn.svg" alt="">
               </a>
               <div class="subline mt-3"></div>
             </div>
@@ -633,13 +635,37 @@
         </div>
       </div>
     </div>
-    <p class="copy-right text-center p-2 m-0">© 2024 <a class="copy-right-link" href="https://hey-stack.com">Heystack™</a>. All Rights
+    <p class="copy-right text-center p-2 m-0">© 2024 <a class="copy-right-link"
+        href="https://hey-stack.com">Heystack™</a>. All Rights
       Reserved.</p>
   </div>
   <button id="backToTopBtn" class="back-to-top-btn">
     <img class="top-arrow" src="./assets/logo/totop.svg" alt="">
     <p class="back-to-top-text">Back to Top</p>
   </button>
+
+  <div id="book-modal" class="book-modal">
+    <div class="book-modal-content">
+      <span class="book-close-button">&times;</span>
+      <h2>Book a Free Deep-Dive Session</h2>
+      <p>In this session we will understand your challenges and discuss how you could address them using Heystack. In
+        addition, we will also demostrate how some of the leading brands in your vertical are using Heystack to get
+        answers to questions like:</p>
+      <ul>
+        <li>What is the overall customer perception and who is the market leader?</li>
+        <li>What are the key purchase drivers and where do I stand among my competitors?</li>
+        <li>What are top issues or compliments that have the highest impact on my sales?</li>
+        <li>What should I do to improve product satisfaction and which SKUs should I focus on?</li>
+      </ul>
+      <form>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Subject" />
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
 </body>
 
 </html>
