@@ -1,6 +1,14 @@
 .slide-container {
+  position: relative;
   width: 100%;
   padding: 40px 0;
+}
+
+@media (max-size: 768px) {
+  .slide-container {
+    position: relative;
+    padding: 10% 0;
+  }
 }
 
 .slide-content {
@@ -36,8 +44,23 @@
 
 .arrow-prev {
   top: 45%;
-  left: 10px;
+  left: 20px;
   z-index: +5;
+}
+
+@media (max-size: 768px) {
+  .arrow-next {
+    position: absolute;
+    top: 45%;
+    right: 200px;
+    z-index: +5;
+  }
+  
+  .arrow-prev {
+    top: 45%;
+    left: 200px;
+    z-index: +5;
+  }
 }
 
 .swiper-pagination-bullet {
