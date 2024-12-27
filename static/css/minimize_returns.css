@@ -48,9 +48,26 @@
     }
 
     .returns-image-container {
-        margin: 40px 64px 20px;
+        margin: 20px 32px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .returns-text-container {
+        margin: 20px 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .returns-image-container {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .returns-text-container {
+        margin: 20px;
     }
 }
