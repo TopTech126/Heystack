@@ -553,7 +553,7 @@
 }
 
 .back-to-top-btn {
-	display: none;
+	/* display: none; */
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
@@ -566,7 +566,14 @@
 	cursor: pointer;
 	padding: 15px;
 	border-radius: 50%;
-	transition: opacity 0.3s;
+	opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.back-to-top-btn.visible {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .top-arrow {
