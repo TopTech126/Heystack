@@ -1,3 +1,23 @@
+@font-face {
+    font-family: '__Poppins_d306d5';
+    src: url('path/to/Poppins-Regular.woff2') format('woff2'),
+         url('path/to/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '__Poppins_Fallback_d306d5';
+    src: url('path/to/Poppins-Fallback.woff2') format('woff2'),
+         url('path/to/Poppins-Fallback.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main-font {
+    font-family: '__Poppins_d306d5', '__Poppins_Fallback_d306d5', sans-serif;
+}
+
 .margintop-112 {
 	margin-top: 112px;
 }

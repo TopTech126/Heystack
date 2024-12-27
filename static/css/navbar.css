@@ -5,8 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    z-index: +20;
-    background-color: #E4ECFF;
+    z-index: +10;
 }
 
 .logo {
@@ -82,8 +81,9 @@
         top: 0;
         left: 0;
         width: 100%;
-        z-index: 999;
-      }
+        z-index: 20;
+        background-color: #E4ECFF;
+    }
 
     .navbar-container {
         width: 100%;
@@ -144,7 +144,7 @@
     .show {
         animation: modalFadeIn 0.3s ease-out;
     }
-    
+
     .hide {
         animation: modalFadeOut 0.3s ease-out;
     }

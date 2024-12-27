@@ -12,7 +12,7 @@
 .returns-title {
 	font-size: 48px;
     font-weight: bold;
-	background: linear-gradient(to right, #ec276e 1%, #d75a00 50%);
+	background: linear-gradient(to right, #ec276e 1%, #d75a00 30%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -24,15 +24,27 @@
     align-items: center;
     margin: 40px 64px 20px;
     gap: 32px;
+    font-style: normal;
+    color: black;
 }
 
 .returns-text-container {
     margin: 40px 64px;
+    color: black;
 }
 
 @media (max-width: 1024px) {
+    .top-gradient-color {
+        display: none;
+    }
     .returns-title {
+        margin-top: 80px;
+        padding: 16px 0;
         text-align: center;
+        background: linear-gradient(to right, #ec276e 30%, #d75a00 50%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .returns-image-container {
