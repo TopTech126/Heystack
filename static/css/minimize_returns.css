@@ -1,9 +1,8 @@
 .top-gradient-color {
     height: 192px;
     width: 100%;
-    background-image: linear-gradient(to bottom, #E4ECFF, rgba(191, 219, 254, 1), #FFFFFF);
+    background: linear-gradient(180deg, #d5e2ff 1.11%, rgba(234, 240, 255, 0) 103.22%);
 }
-
 
 .returns-main {
     max-width: 1280px;
@@ -21,10 +20,10 @@
 
 .returns-image-container{
     margin: 40px 64px 20px;
-    row-gap: 32px;
+    gap: 32px;
 }
 
-.returns-image-container div{
+.returns-image-container {
     display: flex;
     flex-direction: row;
     align-items: center;
