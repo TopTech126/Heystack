@@ -1,8 +1,9 @@
 .top-gradient-color {
     height: 192px;
     width: 100%;
-    background-image: linear-gradient(to bottom, #E4ECFF, white);
+    background-image: linear-gradient(to bottom, #E4ECFF, rgba(191, 219, 254, 1), #FFFFFF);
 }
+
 
 .returns-main {
     max-width: 1280px;
@@ -12,7 +13,7 @@
 .returns-title {
 	font-size: 48px;
     font-weight: bold;
-	background: linear-gradient(267deg, #ec276e 4.01%, #d75a00 114.97%);
+	background: linear-gradient(to right, #ec276e 1%, #d75a00 50%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
