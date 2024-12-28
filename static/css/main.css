@@ -158,6 +158,16 @@
 	}
 }
 
+.title-box-container {
+	padding: 0 80px;
+}
+
+@media (max-width: 1024px) {
+	.title-box-container {
+		padding: 0;
+	}
+}
+
 .title {
 	font-size: 36px;
 	color: #1943CC;
