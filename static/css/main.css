@@ -158,13 +158,10 @@
 	}
 }
 
-.title-box-container {
-	padding: 0 80px;
-}
-
-@media (max-width: 1024px) {
-	.title-box-container {
-		padding: 0;
+@media (min-width: 768px) {
+	.title-box {
+		width: 90%;
+		margin: auto;
 	}
 }
 
