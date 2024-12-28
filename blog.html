@@ -139,7 +139,7 @@
 							onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
 					</div>
 					<div class="blog-text-content" style="display: flex; flex-direction: column; gap:30px;">
-						<div style="font-size: 1.875rem; line-height: 2.25rem; font-weight: 600;">
+						<div style="font-size: 20px; line-height: 2.25rem; font-weight: 600;">
 							<a href="">Usher in a New Era of Footwear Innovation with Online Review Analytics</a>
 						</div>
 						<div style=" color: rgb(103 103 103);font-size: .875rem; line-height: 1.25rem;">
@@ -179,7 +179,7 @@
 							onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
 					</div>
 					<div class="blog-text-content" style="display: flex; flex-direction: column; gap:30px; ">
-						<div style="font-size: 1.875rem; line-height: 2.25rem; font-weight: 600;">
+						<div style="font-size: 20px; line-height: 2.25rem; font-weight: 600;">
 							<a href="">2023 holiday season</a>
 						</div>
 						<div style=" color: rgb(103 103 103);font-size: .875rem; line-height: 1.25rem;">
@@ -219,7 +219,7 @@
 							onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
 					</div>
 					<div class="blog-text-content" style="display: flex; flex-direction: column; gap:30px; ">
-						<div style="font-size: 1.875rem; line-height: 2.25rem; font-weight: 600;">
+						<div style="font-size: 20px; line-height: 2.25rem; font-weight: 600;">
 							<a href="">Unraveling the Tapestry of Network Engineering: Building the Backbone of Connectivity</a>
 						</div>
 						<div style=" color: rgb(103 103 103);font-size: .875rem; line-height: 1.25rem;">
@@ -260,7 +260,7 @@
 							onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
 					</div>
 					<div class="blog-text-content" style="display: flex; flex-direction: column; gap:30px; ">
-						<div style="font-size: 1.875rem; line-height: 2.25rem; font-weight: 600;">
+						<div style="font-size: 20px; line-height: 2.25rem; font-weight: 600;">
 							<a href="">Artificial Intelligence (AI) stands as the pinnacle of human innovation</a>
 						</div>
 						<div style=" color: rgb(103 103 103);font-size: .875rem; line-height: 1.25rem;">
@@ -295,10 +295,10 @@
 		</div>
 	</div>
 	<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; padding: 40px;">
-		<div
-			style="display: flex; position: relative; min-width: 300px; flex-direction: row;background-color: white; flex-wrap: wrap; gap: 32px; width: 1290px; justify-content: space-between; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1); padding: 2.5rem; border-radius: 1.5rem;">
-			<div
-				style="flex: 1 1 0%; background-image: radial-gradient(#D75A00, #542DE8, #EC276E); font-size: 3rem; line-height: 1; color: transparent; background-clip: text; font-weight: 1000;">
+		<div class="follow-content"
+			style="position: relative; min-width: 300px; background-color: white; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1); padding: 2.5rem; border-radius: 1.5rem;">
+			<div class="hey-stack-text"
+				style="flex: 1 1 0%; background-image: radial-gradient(#D75A00, #542DE8, #EC276E); line-height: 1; color: transparent; background-clip: text; font-weight: 1000;">
 				Hey Stack Articles Delivered straight to your inbox
 			</div>
 			<div style="flex: 1 1 0%; display: flex; align-items:center;">
@@ -507,6 +507,32 @@
 			padding: 2.5rem;
 			border-radius: 1.5rem;
 			transform: rotate3d(0, 0, 1, 2deg);
+		}
+
+		.follow-content {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between; 
+			flex-wrap: wrap; 
+			gap: 32px; 
+			width: 1290px; 
+		}
+
+		.hey-stack-text {
+			font-size: 3rem;
+		}
+
+		@media (max-width:1024px) {
+			.hey-stack-text {
+				font-size: 2rem;
+			}
+
+			.follow-content {
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap; 
+				gap: 32px;
+			}
 		}
 	</style>
 </body>
