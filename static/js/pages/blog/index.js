@@ -6,7 +6,7 @@ const Blog = function () {
         posts = await fetchPosts();
         if (posts) {
             const latestOne = posts[0];
-            const latestHTML = `<div style=" flex: 1 1 0%; ;border-radius: .375rem;overflow: hidden;min-width: 400px;cursor: pointer;">
+            const latestHTML = `<div style=" flex: 1 1 0%; ;border-radius: .375rem;overflow: hidden;min-width: 250px;cursor: pointer;">
                     <a href="./slug.html?id=${latestOne.node.slug}">
                         <img src=${latestOne.node.coverImage.url}
                             style="transition-duration: .5s; object-fit: cover; width:100%; height:20rem"
@@ -15,7 +15,7 @@ const Blog = function () {
                     </a>
                 </div>
                 <div
-                    style="flex: 1 1 0%; display: flex; flex-direction: column; gap:30px; justify-content: center;min-width: 400px">
+                    style="flex: 1 1 0%; display: flex; flex-direction: column; gap:30px; justify-content: center;min-width: 250px">
                     <div style="font-size: 1.875rem; line-height: 2.25rem; font-weight: 600;">
                         <a href="./slug.html?id=${latestOne.node.slug}" style="text-decoration:none;color:black">${latestOne.node.title}</a>
                     </div>
@@ -45,7 +45,7 @@ const Blog = function () {
             categoriesHTML = "";
             posts.forEach(post => {
                 categoriesHTML = categoriesHTML + `<div
-                style="display: flex; flex-direction: column; gap: 20px; cursor: pointer; width: 30%; min-width: 350px;">
+                style="display: flex; flex-direction: column; gap: 20px; cursor: pointer; width: 30%; min-width: 250px;">
                 <div
                     style="display: flex;flex-direction: column; gap:2rem; flex-wrap: wrap; justify-content: space-between;">
                     <div style="border-radius: .375rem;overflow: hidden;">

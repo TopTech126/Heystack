@@ -89,7 +89,7 @@ const Slug = function () {
             case "link":
                 return `<a href=${e.href} target=${e.openInNewTab ? "_blank" : ""}>`;
             case "iframe":
-                return `<iframe src=${e.url} frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style="width: 500px; height: 300px;">`;
+                return `<iframe src=${e.url} frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style="width:"100%", height: 300px;">`;
             case "code-block":
                 return "<pre><code>";
             case "video":
@@ -171,7 +171,7 @@ const Slug = function () {
         if (blog) {
             blogHTML = `
                 <div class="brand-m"
-                    style="min-width: 300px; background: linear-gradient(45deg, #4f31df, #00c6ff);padding-top: 1.75rem; padding-bottom: 1.75rem;padding-left: 1.25rem;padding-right: 1.25rem;border-radius: .75rem; color: white;">
+                    style="min-width: 250px; background: linear-gradient(45deg, #4f31df, #00c6ff);padding-top: 1.75rem; padding-bottom: 1.75rem;padding-left: 1.25rem;padding-right: 1.25rem;border-radius: .75rem; color: white;">
                     <div style="display:flex; flex-direction: row; align-items: center;">
                         <button
                             style="border-width: 1px;border-radius: .5rem;cursor: pointer;margin-right: .5rem;background-color: transparent;background-image: none;border-color: rgb(255 255 255); border-style:solid; color:white; padding:4px 16px; font-size:16px">${blog.post.author.name}</button>
@@ -297,13 +297,13 @@ const Slug = function () {
                 posts.forEach(post => {
             if(post.node.slug !== slug)
                 categoriesHTML = categoriesHTML + `<div
-                style="display: flex; flex-direction: column; gap: 20px; cursor: pointer; width: 30%; min-width: 350px;">
+                style="display: flex; flex-direction: column; gap: 20px; cursor: pointer; width: 30%; min-width: 250px;">
                 <div
                     style="display: flex;flex-direction: column; gap:2rem; flex-wrap: wrap; justify-content: space-between;">
                     <div style="border-radius: .375rem;overflow: hidden;">
                         <a href="./slug.html?id=${post.node.slug}">
                             <img src=${post.node.coverImage.url}
-                                style="transition-duration: .5s; object-fit: cover; width:100%; height:17rem"
+                                style="transition-duration: .5s; object-fit: cover; width:100%; height:12rem"
                                 alt="featuredImage" onmouseover="this.style.transform='scale(1.2)'"
                                 onmouseout="this.style.transform='scale(1)'">
                         </a>
