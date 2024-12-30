@@ -57,7 +57,7 @@ const Blog = function () {
                         </a>
                     </div>
                     <div style="display: flex; flex-direction: column; gap:30px; height: 25vh; ">
-                        <div style="font-size: 1.875rem; line-height: 2.25rem;  font-weight: 600;">
+                        <div style="font-size: 20px; line-height: 1.75rem;  font-weight: 600;">
                             <a href="./slug.html?id=${post.node.slug}" style="text-decoration:none; color:black">
                                 ${post.node.title}
                             </a>
