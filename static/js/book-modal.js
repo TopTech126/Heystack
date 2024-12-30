@@ -7,16 +7,21 @@ btn.onclick = function() {
   bookModal.style.display = "block";
 }
 
-btn2.onclick = function() {
-  bookModal.style.display = "block";
+if(btn2){
+  btn2.onclick = function() {
+    bookModal.style.display = "block";
+  }
 }
-
-span.onclick = function() {
-  bookModal.style.display = "none";
+if(span){
+  
+  span.onclick = function() {
+    bookModal.style.display = "none";
+  }
 }
 
 window.onclick = function(event) {
   if (event.target == bookModal) {
-    bookModal.style.display = "none";
+    if(bookModal)
+      bookModal.style.display = "none";
   }
 }

@@ -32,7 +32,6 @@
       defer
       src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
     ></script>
-
   </head>
 
   <body class="position-relative">
@@ -66,7 +65,9 @@
           </li>
         </ul>
         <div class="nav-btn-container">
-          <button class="nav-btn" id="open-book-modal">SEE LIVE IN ACTION</button>
+          <button class="nav-btn" id="open-book-modal">
+            SEE LIVE IN ACTION
+          </button>
         </div>
         <button class="navbar-toggle">
           <span class="icon-bar"></span>
@@ -231,7 +232,6 @@
     <div class="blank"></div>
     <div
       style="
-        background-color: rgb(235, 240, 245);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -239,229 +239,16 @@
       "
     >
       <div
-        style="display: flex; flex-direction: column; gap: 20px; width: 1290px"
-      >
-        <div
-          style="
-            background: linear-gradient(45deg, #542de8, #ec276e, #542de8);
-            background-clip: text;
-            font-weight: 800;
-            font-size: 2.25rem;
-            line-height: 2.5rem;
-            color: transparent;
-          "
-        >
-          Hey-Stack Blogs
-        </div>
-        <div>
-          Your go-to place for actionale insights and strategies on everything.
-        </div>
-        <div
-          style="
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            font-weight: 700;
-            font-size: 1.5rem;
-            height: min-content;
-          "
-        >
-          Latest Post
-        </div>
-        <div
-          style="display: flex; gap: 2rem; flex-direction: row; flex-wrap: wrap"
-          id="latest-post"
-        ></div>
-      </div>
-    </div>
-    <div
-      style="
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 40px;
-      "
-    >
-      <div
         style="
           display: flex;
           flex-direction: row;
-          flex-wrap: wrap;
           gap: 32px;
           width: 1290px;
-        "
-        id="post-categories"
-      ></div>
-    </div>
-    <div
-      style="
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        padding: 40px;
-      "
-    >
-      <div
-        style="
-          display: flex;
-          position: relative;
-          min-width: 400px;
-          flex-direction: row;
-          background-color: white;
           flex-wrap: wrap;
-          gap: 32px;
-          width: 1290px;
-          justify-content: space-between;
-          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-            0 2px 4px -2px rgba(0, 0, 0, 0.1);
-          padding: 2.5rem;
-          border-radius: 1.5rem;
         "
       >
-        <div
-          style="
-            flex: 1 1 0%;
-            background-image: radial-gradient(#d75a00, #542de8, #ec276e);
-            font-size: 3rem;
-            line-height: 1;
-            color: transparent;
-            background-clip: text;
-            font-weight: 1000;
-          "
-        >
-          Hey Stack Articles Delivered straight to your inbox
-        </div>
-        <div style="flex: 1 1 0%; display: flex; align-items: center">
-          <div>
-            <div class="input-pink-in-button">
-              <input type="text" placeholder="Email Address" name="" />
-              <button>FOLLOW</button>
-            </div>
-            <div
-              style="
-                color: rgb(55 65 81);
-                padding-top: 0.25rem;
-                padding-bottom: 0.25rem;
-                font-size: 11px;
-              "
-            >
-              By signing up you agree to our
-              <a
-                style="
-                  color: rgb(102 0 145);
-                  font-weight: 600;
-                  cursor: pointer;
-                  font-size: 11px;
-                  text-decoration: none;
-                "
-                href="https://hey-stack.com/terms-conditions"
-                target="_blank"
-                >Terms of Use</a
-              >
-              and
-              <a
-                href="https://hey-stack.com/privacy-policy"
-                style="
-                  color: rgb(102 0 145);
-                  font-weight: 600;
-                  cursor: pointer;
-                  font-size: 11px;
-                  text-decoration: none;
-                "
-                target="_blank"
-                >Privacy Policy</a
-              >
-            </div>
-          </div>
-        </div>
-        <!-- Background overlay div -->
-        <div
-          style="
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background-color: rgb(191, 230, 245);
-            top: 0;
-            left: 0;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-              0 2px 4px -2px rgba(0, 0, 0, 0.1);
-            padding: 2.5rem;
-            border-radius: 1.5rem;
-            transform: rotate3d(0, 0, 1, 2deg);
-            z-index: -1;
-          "
-        ></div>
-      </div>
-    </div>
-    <div
-      style="
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 40px;
-      "
-    >
-      <div
-        style="
-          display: flex;
-          flex-direction: row;
-          background: linear-gradient(#00c6ff, #4f31df);
-          width: 1290px;
-          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-            0 2px 4px -2px rgba(0, 0, 0, 0.1);
-          padding: 2.5rem;
-          border-radius: 1.5rem;
-          align-items: center;
-          justify-content: center;
-        "
-      >
-        <div
-          style="
-            max-width: 500px;
-            text-align: center;
-            padding-top: 1.25rem;
-            padding-bottom: 1.25rem;
-          "
-        >
-          <div
-            style="
-              color: white;
-              font-weight: 800;
-              font-size: 2.25em;
-              margin-top: 0.5rem;
-              margin-bottom: 0.5rem;
-            "
-          >
-            Book Your Hey Stack Demo
-          </div>
-          <div
-            style="
-              color: white;
-              padding-top: 0.5rem;
-              padding-bottom: 0.5rem;
-              font-size: 16px;
-            "
-          >
-            Hey Stack is the most comprehensive analytics solution for
-            aggregating and analyzing customer reviews at scale.
-          </div>
-          <div>
-            <button
-              style="
-                font-size: 14px;
-                border-radius: 100px;
-                padding: 16px 32px;
-                border-style: none;
-                background-color: white;
-                margin: 8px;
-                font-weight: 600;
-              "
-            >
-              SEE LIVE IN ACTION >
-            </button>
-          </div>
-        </div>
+        <div style="flex: 2 1 0%; height: 2000px" id="blog-one"></div>
+        <div style="flex: 1 1 0%">asdfasdf</div>
       </div>
     </div>
 
@@ -542,6 +329,11 @@
         z-index: 2;
       }
 
+      body {
+        color: #334155;
+        font-size: 18px;
+      }
+
       .input-pink-in-button > input {
         width: 100%;
         padding: 10px 80px 10px 12px;
@@ -618,10 +410,149 @@
         border-radius: 1.5rem;
         transform: rotate3d(0, 0, 1, 2deg);
       }
+
+      .brand-m {
+        height: auto;
+      }
+
+      .review-topic {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 1.125rem;
+        line-height: 1.7777778;
+      }
+
+      @media (min-width: 1200px) {
+        .brand-m {
+          height: 35rem;
+        }
+      }
+
+      @media (max-width: 1200px) {
+        .progress-dynamic-bar {
+          display: none;
+        }
+      }
+
+      h1 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.75rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        color: #374151;
+      }
+
+      h2 {
+        font-size: 1.6666667em;
+        margin-top: 1.8666667em;
+        margin-bottom: 1.0666667em;
+        line-height: 1.3333333;
+        color: #0f172a;
+        font-weight: 700;
+      }
+
+      h3 {
+        font-size: 1.3333333em;
+        margin-top: 1.6666667em;
+        margin-bottom: 0.6666667em;
+        line-height: 1.5;
+        color: #0f172a;
+      }
+
+      h4 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.75rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      h5 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.75rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      h6 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.75rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      pre {
+        font-size: 0.8888889em;
+        line-height: 1.75;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        border-radius: 0.375rem;
+        padding: 1em 1.5em;
+        color: #e2e8f0;
+        background-color: #1e293b;
+        overflow-x: auto;
+        font-weight: 400;
+      }
+
+      table {
+        border-collapse: collapse;
+        font-size: 0.8888889em;
+        line-height: 1.5;
+        color: rgb(107 114 128);
+        width: 100%;
+        position: relative;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        text-indent: 0;
+        border-color: inherit;
+        border-collapse: collapse;
+        border-spacing: 2px;
+      }
+
+      thead {
+        color: rgb(55 65 81);
+        text-transform: uppercase;
+        border-bottom-width: 1px;
+        border-bottom-color: #cbd5e1;
+        display: table-header-group;
+        vertical-align: middle;
+        unicode-bidi: isolate;
+        font-size: 0.8888889em;
+        line-height: 1.5;
+        text-align: left;
+      }
+
+      td {
+        padding: 0.75em;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        vertical-align: baseline;
+        display: table-cell;
+        unicode-bidi: isolate;
+        text-align: left;
+        font-size: 0.8888889em;
+        line-height: 1.5;
+        border: 1px solid #e5e7eb;
+        border-color: transparent transparent #e5e7eb transparent;
+      }
+
+      td p {
+        margin-top: 1.3333333em;
+        margin-bottom: 1.3333333em;
+      }
+
+      th {
+        border: 1px solid #e5e7eb;
+        border-color: transparent transparent #e5e7eb transparent;
+      }
     </style>
   </body>
   <script defer src="./assets/pages/utiles.js"></script>
-  <script defer src="./assets/pages/blog/index.js"></script>
+  <script defer src="./assets/pages/slug/index.js"></script>
   <script defer src="./static/js/testimonials.js"></script>
   <script defer src="./static/js/partners.js"></script>
   <script defer src="./static/js/navbar.js"></script>
