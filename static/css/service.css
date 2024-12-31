@@ -9,8 +9,9 @@ body {
 
 .service-title {
     font-size: 48px;
+    font-weight: bold;
     padding: 160px 0 80px 0;
-	background: linear-gradient(267deg, #5200ff 4.01%, #ff2df7 114.97%);
+	background: linear-gradient(90deg, #5200ff -10.01%, #ff2df7 20.97%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -26,7 +27,6 @@ body {
 .service-description {
     font-size: 16px;
     padding: 16px 0;
-    font-weight: bold;
 }
 
 @media (max-width: 1024px) {
