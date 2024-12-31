@@ -17,8 +17,10 @@
     <link rel="stylesheet" href="../static/css/navbar.css">
     <link rel="stylesheet" href="../static/css/totopbtn.css" />
     <link rel="stylesheet" href="../static/css/careers.css">
+    <link rel="stylesheet" href="../static/css/book-modal.css">
     <script defer src="../static/js/navbar.js"></script>
     <script defer src="../static/js/totopbtn.js"></script>
+    <script defer src="../static/js/book-modal.js"></script>
 </head>
 
 <body class="position-relative">
@@ -29,27 +31,15 @@
                 <span class="">Heystack</span>
             </a>
             <ul class="navbar-nav d-flex flex-row nav-main">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html#customers">Customers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html#products">Prouducts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html#technology">Technology</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html#retailers">Retailers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./blog.html">Blogs</a>
-                </li>
+                <li class="nav-item"> <a class="nav-link" href="../index.html">Home</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="../index.html#customers">Customers</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="../index.html#products">Prouducts</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="../index.html#technology">Technology</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="../index.html#retailers">Retailers</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="../html/blog.html">Blogs</a> </li>
             </ul>
             <div class="nav-btn-container">
-                <button class="nav-btn">SEE LIVE IN ACTION</button>
+                <button class="nav-btn" id="open-book-modal">SEE LIVE IN ACTION</button>
             </div>
             <button class="navbar-toggle">
                 <span class="icon-bar"></span>
@@ -60,7 +50,7 @@
         <div class="modal">
             <div class="modal-content">
                 <div class="modal-header d-flex justify-content-between">
-                    <a href="../index.html" class="logo d-flex align-items-center gap-2 navbar-brand">
+                    <a href="index.html" class="logo d-flex align-items-center gap-2 navbar-brand">
                         <img class="logo-img" src="../assets/logo/logo.ico" alt="" />
                         <span class="">Heystack</span>
                     </a>
@@ -70,34 +60,68 @@
                     </div>
                 </div>
                 <div class="padding-24 paddingx-20">
-                    <ul class="navbar-nav d-flex flex-row nav-main">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html#customers">Customers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html#products">Prouducts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html#technology">Technology</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html#retailers">Retailers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./blog.html">Blogs</a>
-                        </li>
+                    <ul class="modal-nav">
+                        <li class=""><a href="../index.html">Home</a></li>
+                        <li class=""><a href="../index.html#customers">Customers</a></li>
+                        <li class=""><a href="../index.html#products">Products</a></li>
+                        <li class=""><a href="../index.html#technology">Technology</a></li>
+                        <li class=""><a href="../index.html#retailers">Retailers</a></li>
+                        <li class=""><a href="./blog.html">Blogs</a></li>
                     </ul>
                     <div class="modal-nav-btn-container">
-                        <button class="modal-nav-btn">SEE LIVE IN ACTION</button>
+                        <button class="modal-nav-btn" id="open2-book-modal">SEE LIVE IN ACTION</button>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="book-modal" class="book-modal">
+            <div class="book-modal-content">
+                <div class="book-modal-up">
+                    <div class="ring-container">
+                        <img src="./assets/logo/ring.svg" width="24" height="24" alt="">
+                    </div>
+                    <div class="book-modal-text">
+                        <h6 class="fw-bold text-center">Book a Free Deep-Dive Session</h6>
+                        <p class="px-3">
+                            In this session we will understand your challenges and discuss how you could address them
+                            using Heystack. In addition, we will also demostrate how some of the leading brands in your
+                            vertical are
+                            using Heystack to get answers to questions like:</p>
+                        <ul>
+                            <li>What is the overall customer perception and who is the market leader?</li>
+                            <li>What are the key purchase drivers and where do I stand among my competitors?</li>
+                            <li>What are top issues or compliments that have the highest impact on my sales?</li>
+                            <li>What should I do to improve product satisfaction and which SKUs should I focus on?</li>
+                        </ul>
+                    </div>
+                </div>
+                <form class="modal-form">
+                    <div class="w-100 d-flex gap-3">
+                        <div class="col">
+                            <p class="m-0 fw-bold">Name</p>
+                            <input class="w-100" type="text" />
+                        </div>
+                        <div class="col">
+                            <p class="m-0 fw-bold">Email</p>
+                            <input class="w-100" type="email" />
+                        </div>
+                    </div>
+                    <div>
+                        <p class="m-0 fw-bold">Subject</p>
+                        <input class="w-100" type="text" />
+                    </div>
+                    <div>
+                        <p class="m-0 fw-bold">Message</p>
+                        <textarea class="w-100"></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="cancel-container w-100">
+                    <button class="book-close-button">Cancel</button>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- <div class="top-gradient-color"></div> -->
     <div class="careers-main">
         <h1 class="careers-title">Careers</h1>
         <div class="">
