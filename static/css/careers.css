@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(179deg, #dfe9ff 1%, rgba(234, 240, 255, 0) 90%);
+}
+
+.careers-main {
+    padding-top: 80px;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.careers-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 48px 16px 0;
+    padding: 16px 0;
+    background: linear-gradient(to right, #5200ff 1.01%, #ff2df7 15.97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.careers-description {
+    padding: 40px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.careers-subtitle {
+    font-size: 30px;
+    color: #ff2df7;
+}
+
+.careers-content {
+    margin: 40px;
+}
+
+.positions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+
+}
+
+@media (max-width: 1024px) {
+    .positions {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+    
+    .careers-content {
+        margin: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .positions {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+}
+
+.position-card {
+    background-color: white;
+    /* max-width: 376px; */
+}
+
+.position-card img {
+    width: 100%;
+    height: auto;
+    border: #E5E7EB solid 10px;
+    border-radius: 3px;
+}
+
+.position-text {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 8px 16px 32px;
+}
+
+.position-text h3 {
+    font-size: 24px;
+    padding-top: 8px;
+    margin: 0;
+}
+
+.experience {
+    font-size: 12px;
+    margin: 0;
+}
+
+.position-description {
+    font-size: 14px;
+    padding: 16px 0;
+    margin: 0;
+}
+
+.position-apply-btn {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    text-align: start;
+    font-size: 12px;
+    color: blue;
+}
