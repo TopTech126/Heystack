@@ -16,6 +16,21 @@ function getBreakpoints() {
         slidesPerView: 2,
       },
     };
+  } else if (screenWidth < 1024) {
+    return {
+      0: {
+        slidesPerView: 1,
+      },
+      200: {
+        slidesPerView: 2,
+      },
+      400: {
+        slidesPerView: 3,
+      },
+      600: {
+        slidesPerView: 4,
+      },
+    };
   } else {
     return {
       0: {
@@ -23,6 +38,9 @@ function getBreakpoints() {
       },
       200: {
         slidesPerView: 2,
+      },
+      400: {
+        slidesPerView: 3,
       },
       600: {
         slidesPerView: 4,
