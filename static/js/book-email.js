@@ -6,7 +6,7 @@ document.getElementById('book-email-form').addEventListener('submit', function (
     event.preventDefault();
 
     const templateParams = {
-        to: 'saveearthdev@gmail.com',
+        to: 'smartcode2414@gmail.com',
         subject: "Book",
         name: document.getElementById('book-name').value,
         email: document.getElementById('book-email').value,

@@ -97,24 +97,24 @@
                         </ul>
                     </div>
                 </div>
-                <form class="modal-form">
+                <form class="modal-form" id="book-email-form">
                     <div class="w-100 d-flex gap-3">
                         <div class="col">
-                            <p class="m-0 fw-bold">Name</p>
-                            <input class="w-100" type="text" />
+                            <label class="m-0 fw-bold">Name</label>
+                            <input class="w-100" type="text" id="book-name" required />
                         </div>
                         <div class="col">
-                            <p class="m-0 fw-bold">Email</p>
-                            <input class="w-100" type="email" />
+                            <label class="m-0 fw-bold">Email</label>
+                            <input class="w-100" type="email" id="book-email" required />
                         </div>
                     </div>
                     <div>
-                        <p class="m-0 fw-bold">Subject</p>
-                        <input class="w-100" type="text" />
+                        <label class="m-0 fw-bold">Subject</label>
+                        <input class="w-100" type="text" id="book-subject" required />
                     </div>
                     <div>
-                        <p class="m-0 fw-bold">Message</p>
-                        <textarea class="w-100"></textarea>
+                        <label class="m-0 fw-bold">Message</label>
+                        <textarea class="w-100" id="book-message" required></textarea>
                     </div>
                     <button type="submit">Submit</button>
                 </form>

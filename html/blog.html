@@ -27,7 +27,7 @@
 
 </head>
 
-<body class="position-relative" style=" font-family: Poppins, sans-serif;">
+<body class="position-relative">
   <div class="navbar top-0 start-0">
     <div class="navbar-container">
       <a href="../index.html" class="logo d-flex align-items-center gap-2 navbar-brand">
@@ -209,10 +209,12 @@
       </div>
       <div style="flex: 1 1 0%; display: flex; align-items: center">
         <div>
-          <div class="input-pink-in-button">
-            <input type="text" placeholder="Email Address" name="" />
-            <button>FOLLOW</button>
-          </div>
+          <form id="follow-email-form">
+            <div class="input-pink-in-button">
+              <input type="text" placeholder="Email Address" name="" id="follow-email"/>
+              <button type="submit">FOLLOW</button>
+            </div>
+          </form>
           <div style="
                 color: rgb(55 65 81);
                 padding-top: 0.25rem;
@@ -379,10 +381,34 @@
 </body>
 <script defer src="../static/js/pages/utiles.js"></script>
 <script defer src="../static/js/pages/blog/index.js"></script>
-<script defer src="../static/js/testimonials.js"></script>
-<script defer src="../static/js/partners.js"></script>
 <script defer src="../static/js/navbar.js"></script>
 <script defer src="../static/js/totopbtn.js"></script>
 <script defer src="../static/js/book-modal.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init("AxfWH57xCUpbKEHPO");
+  })();
+
+  document.getElementById('follow-email-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const templateParams = {
+      to: 'smartcode2414@gmail.com',
+      subject: "Follow",
+      name: "Follow Email",
+      email: document.getElementById('follow-email').value,
+    };
+
+    emailjs.send('service_l3gukc9', 'template_nrx60j6', templateParams)
+      .then(function (response) {
+        console.log('SUCCESS!', response.status, response.text);
+        alert('Email sent successfully!');
+      }, function (error) {
+        console.log('FAILED...', error);
+        alert('Email sending failed. Please try again later.');
+      });
+  });
+</script>
 
 </html>
