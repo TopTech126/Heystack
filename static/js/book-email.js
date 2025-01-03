@@ -16,6 +16,7 @@ document.getElementById('book-email-form').addEventListener('submit', function (
 
     emailjs.send('service_l3gukc9', 'template_n2dk8vg', templateParams)
         .then(function (response) {
+            bookModal.style.display = "none";
             console.log('SUCCESS!', response.status, response.text);
             alert('Email sent successfully!');
         }, function (error) {
