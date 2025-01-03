@@ -4,10 +4,10 @@
   padding: 40px 0;
 }
 
-@media (max-size: 768px) {
+@media (max-width: 768px) {
   .slide-container {
     position: relative;
-    padding: 10% 0;
+    padding: 20px 10px;
   }
 }
 
@@ -48,17 +48,16 @@
   z-index: +5;
 }
 
-@media (max-size: 768px) {
+@media (max-width: 768px) {
   .arrow-next {
-    position: absolute;
     top: 45%;
-    right: 200px;
+    right: 0;
     z-index: +5;
   }
   
   .arrow-prev {
     top: 45%;
-    left: 200px;
+    left: 0;
     z-index: +5;
   }
 }
@@ -72,12 +71,8 @@
   background-color: #4070F4;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .slide-content {
     margin: 0 10px;
-  }
-
-  .swiper-navBtn {
-    display: none;
   }
 }
