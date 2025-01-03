@@ -5,9 +5,16 @@
 }
 
 .retailer-content {
-	margin: 0 40px;
-	overflow: hidden;
-	border-radius: 25px;
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.retailer-card {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .swiper-navBtn {
@@ -41,12 +48,14 @@
   background-color: #4070F4;
 }
 
-@media screen and (max-width: 768px) {
-  .partners-content {
-    margin: 0 10px;
-  }
+.bw-image {
+  width: 150px;
+  height: 100px;
+}
 
-  .partners-navBtn {
-    display: none;
+@media (max-width: 768px) {
+  .bw-image {
+    width: 100px;
+    height: 80px;
   }
 }

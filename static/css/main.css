@@ -294,7 +294,7 @@
 	z-index: 2;
 }
 
-/* .brand-slider::before {
+.brand-slider::before {
 	left: 0;
 	background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
 }
@@ -302,7 +302,7 @@
 .brand-slider::after {
 	right: 0;
 	background: linear-gradient(to left, white 0%, rgba(255, 255, 255, 0) 100%);
-} */
+}
 
 .slide-track {
 	display: flex;
