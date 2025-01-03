@@ -18,7 +18,11 @@ document.getElementById('book-email-form').addEventListener('submit', function (
         .then(function (response) {
             bookModal.style.display = "none";
             console.log('SUCCESS!', response.status, response.text);
-            alert('Email sent successfully!');
+            const alertBox = document.getElementById('book-success');
+            alertBox.classList.remove('hidden');
+            setTimeout(function () {
+                alertBox.classList.add('hidden');
+            }, 3000);
         }, function (error) {
             console.log('FAILED...', error);
             alert('Email sending failed. Please try again later.');
