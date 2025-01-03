@@ -237,7 +237,7 @@
 }
 
 .book-success {
-    position: absolute;
+    position: fixed;
     top: 20px;
     height: 60px;
     padding: 8px;
@@ -250,5 +250,5 @@
 }
 
 .hidden {
-    display: none; /* Hide the alert by default */
+    display: none;
 }
