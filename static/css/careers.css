@@ -8,6 +8,18 @@ body {
     margin: auto;
 }
 
+@media (max-width: 1024px) {
+    .careers-main {
+        margin: 0 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .careers-main {
+        margin: 0 16px;
+    }
+}
+
 .careers-title {
     font-size: 48px;
     font-weight: bold;
@@ -58,6 +70,10 @@ body {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 16px;
+    }
+
+    .careers-content {
+        margin: 16px;
     }
 }
 
