@@ -18,9 +18,11 @@
     <link rel="stylesheet" href="../static/css/totopbtn.css" />
     <link rel="stylesheet" href="../static/css/careers.css">
     <link rel="stylesheet" href="../static/css/book-modal.css">
+    <link rel="stylesheet" href="../static/css/apply-modal.css">
     <script defer src="../static/js/navbar.js"></script>
     <script defer src="../static/js/totopbtn.js"></script>
     <script defer src="../static/js/book-modal.js"></script>
+    <script defer src="../static/js/apply-modal.js"></script>
 </head>
 
 <body class="position-relative">
@@ -78,7 +80,7 @@
             <div class="book-modal-content">
                 <div class="book-modal-up">
                     <div class="ring-container">
-                        <img src="./assets/logo/ring.svg" width="24" height="24" alt="">
+                        <img src="../assets/logo/ring.svg" width="24" height="24" alt="">
                     </div>
                     <div class="book-modal-text">
                         <h6 class="fw-bold text-center">Book a Free Deep-Dive Session</h6>
@@ -145,7 +147,7 @@
                             <p class="position-description">We are looking for a Front-end Developer at Heystack, with
                                 3-5 years of experience and knowledge about ReactJS, material-ui and styled-components.
                             </p>
-                            <button class="position-apply-btn">Apply →</button>
+                            <button class="position-apply-btn open-apply" >Apply →</button>
                         </div>
                     </div>
                     <div class="position-card ">
@@ -157,7 +159,7 @@
                                 Heystack team. A strong background in Computational Linguistics and/or Customer Service
                                 is highly desirable.
                             </p>
-                            <button class="position-apply-btn">Apply →</button>
+                            <button class="position-apply-btn open-apply" >Apply →</button>
                         </div>
                     </div>
                     <div class="position-card ">
@@ -168,7 +170,7 @@
                             <p class="position-description">We are now hiring a talented Account Executive professional,
                                 with 3-5 years of experience, to join our team.
                             </p>
-                            <button class="position-apply-btn">Apply →</button>
+                            <button class="position-apply-btn open-apply" >Apply →</button>
                         </div>
                     </div>
                     <div class="position-card ">
@@ -179,7 +181,7 @@
                             <p class="position-description">We are looking for an experienced SDR, with 3-5 years of
                                 experience, to join our sales team.
                             </p>
-                            <button class="position-apply-btn">Apply →</button>
+                            <button class="position-apply-btn open-apply" >Apply →</button>
                         </div>
                     </div>
                     <div class="position-card ">
@@ -190,7 +192,7 @@
                             <p class="position-description">We're hiring an NLP Scientist, with a PhD in ML/NLP and 3+
                                 years of research experience in deep learning, to join our NLP research team.
                             </p>
-                            <button class="position-apply-btn">Apply →</button>
+                            <button class="position-apply-btn open-apply" >Apply →</button>
                         </div>
                     </div>
                     <div class="position-card ">
@@ -202,9 +204,61 @@
                                 experience in LAMP stack and scalable server design, to join our engineering team at
                                 Heystack.
                             </p>
-                            <button class="position-apply-btn">Apply →</button>
+                            <button class="position-apply-btn open-apply" >Apply →</button>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div id="apply-modal" class="apply-modal">
+            <div class="apply-modal-content">
+                <div class="apply-modal-up">
+                    <div class="ring-container">
+                        <img src="../assets/logo/ring.svg" width="24" height="24" alt="">
+                    </div>
+                    <div class="apply-modal-text">
+                        <h6 class="fw-bold text-center">Apply for the open Position</h6>
+                    </div>
+                </div>
+                <form class="modal-form">
+                    <div class="w-100 d-flex flex-column flex-md-row gap-3">
+                        <div class="col">
+                            <p class="m-0 fw-bold">Name</p>
+                            <input class="w-100" type="text" />
+                        </div>
+                        <div class="col">
+                            <p class="m-0 fw-bold">Email</p>
+                            <input class="w-100" type="email" />
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex flex-column flex-md-row gap-3">
+                        <div class="col">
+                            <p class="m-0 fw-bold">Phone</p>
+                            <input class="w-100" type="text" />
+                        </div>
+                        <div class="col">
+                            <p class="m-0 fw-bold">Role</p>
+                            <input class="w-100" type="email" />
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex flex-column flex-md-row gap-3">
+                        <div class="col">
+                            <p class="m-0 fw-bold">Location</p>
+                            <input class="w-100" type="text" />
+                        </div>
+                        <div class="col">
+                            <p class="m-0 fw-bold">Linkedin</p>
+                            <input class="w-100" type="email" />
+                        </div>
+                    </div>
+                    <div>
+                        <p class="m-0 fw-bold">Message</p>
+                        <textarea class="w-100"></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="cancel-container w-100">
+                    <button class="close-apply">Cancel</button>
                 </div>
             </div>
         </div>
