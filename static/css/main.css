@@ -357,8 +357,7 @@
 	}
 
 	.slide-img {
-		width: 112px;
-		height: 72px;
+		width: 150px;
 		object-fit: contain;
 	}
 }
