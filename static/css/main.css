@@ -299,8 +299,8 @@
 
 .brand-slider::before,
 .brand-slider::after {
-	position: absolute;
 	content: "";
+	position: absolute;
 	top: 0;
 	width: 208px;
 	height: 100%;
